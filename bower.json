@@ -1,0 +1,33 @@
+{
+  "name": "bower",
+  "devDependencies": {
+    "normalize-css": "~3",
+    "jquery-ui": "latest"
+  },
+  "install": {
+    "path": {
+      "css": "assets/styles/_partials",
+      "js": "assets/scripts"
+    },
+    "ignore": ["jquery"],
+    "sources": {
+      "normalize-css": {
+        "mapping": [
+          {
+            "bower_components/normalize-css/normalize.css": "_normalize.scss"
+          }
+        ]
+      },
+      "jquery-ui" : {
+        "mapping": [
+          {
+            "bower_components/jquery-ui/jquery-ui.js": "jquery-ui.js"
+          },
+          {
+            "bower_components/jquery-ui/jquery-ui.min.js": "jquery-ui-min-new-name.js"
+          }
+        ]
+      }
+    }
+  }
+}
