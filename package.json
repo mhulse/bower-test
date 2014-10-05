@@ -7,6 +7,6 @@
   },
   "scripts": {
     "bower": "bower",
-    "bower-installer": "bower-installer"
+    "bower-installer": "bower-installer --keep"
   }
 }
